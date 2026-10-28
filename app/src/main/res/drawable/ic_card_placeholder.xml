@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="126dp"
+    android:viewportWidth="200"
+    android:viewportHeight="126">
+    <!-- Card Background -->
+    <path
+        android:fillColor="#E7F0FF"
+        android:pathData="M12,0 h176 a12,12 0 0 1 12,12 v102 a12,12 0 0 1 -12,12 h-176 a12,12 0 0 1 -12,-12 v-102 a12,12 0 0 1 12,-12 z" />
+    <!-- Gradient/Waves Accent -->
+    <path
+        android:fillColor="#DBEAFE"
+        android:pathData="M0,70 Q50,50 100,75 T200,60 L200,126 L0,126 Z" />
+    <path
+        android:fillColor="#BFDBFE"
+        android:pathData="M0,90 Q60,75 120,95 T200,85 L200,126 L0,126 Z" />
+    <!-- Chip -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M24,32 h28 a4,4 0 0 1 4,4 v20 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-20 a4,4 0 0 1 4,-4 z" />
+    <path
+        android:strokeColor="#D97706"
+        android:strokeWidth="1.5"
+        android:pathData="M38,32 v28 M20,46 h36" />
+    <!-- Subtle Signal Lines -->
+    <path
+        android:strokeColor="#2458D3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M165,30 A12,12 0 0 1 165,46 M172,25 A20,20 0 0 1 172,51" />
+</vector>

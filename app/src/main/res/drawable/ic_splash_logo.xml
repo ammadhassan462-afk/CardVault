@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <!-- Soft circular base -->
+    <path
+        android:fillColor="#E7F0FF"
+        android:pathData="M120,20 a100,100 0 1,0 0.1,0 Z" />
+
+    <!-- Blue Wallet / Card Vault Body -->
+    <path
+        android:fillColor="#2458D3"
+        android:pathData="M65,75 h110 a12,12 0 0 1 12,12 v66 a12,12 0 0 1 -12,12 h-110 a12,12 0 0 1 -12,-12 v-66 a12,12 0 0 1 12,-12 z" />
+
+    <!-- Card Inside Wallet Top Edge -->
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M78,63 h84 a6,6 0 0 1 6,6 v12 h-96 v-12 a6,6 0 0 1 6,-6 z" />
+
+    <!-- Wallet Flap / Front Fold -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M53,92 h134 v61 a12,12 0 0 1 -12,12 h-110 a12,12 0 0 1 -12,-12 z" />
+
+    <!-- Gold Card Chip / Lock Emblem -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M136,112 h32 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-32 a4,4 0 0 1 -4,-4 v-18 a4,4 0 0 1 4,-4 z" />
+    <path
+        android:strokeColor="#D97706"
+        android:strokeWidth="1.5"
+        android:pathData="M152,112 v26 M132,125 h40" />
+
+    <!-- White Detail Accent Line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M75,125 h38 M75,135 h24" />
+</vector>

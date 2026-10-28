@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_cardvault_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_cardvault_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CardVault">
+
+        <!-- Launcher Activity: Native Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.CardVault.Starting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication Screens -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- My Cards Activity -->
+        <activity
+            android:name=".MyCardsActivity"
+            android:exported="false" />
+
+        <!-- Add / Edit Card Activity -->
+        <activity
+            android:name=".AddCardActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Card Details Activity -->
+        <activity
+            android:name=".CardDetailsActivity"
+            android:exported="false" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <!-- Card Zoomed & 3D Flip Viewer Activity -->
+        <activity
+            android:name=".CardViewerActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
